@@ -3,7 +3,7 @@ import React from 'react';
 const Loading = () => {
   return (
     <main>
-      {[...new Array(10)].map((e, index) => (
+      {[...new Array(12)].map((e, index) => (
         <div key={index} className="load-usercard">
           <h3 className="load-name"></h3>
           <p className="load-mail"></p>
